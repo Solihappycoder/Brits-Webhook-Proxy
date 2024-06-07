@@ -1,0 +1,24 @@
+{
+  "name": "webhookflow",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "npm i && node .",
+    "build": "docker build -t someone98930/webhookflow:latest . && docker push someone98930/webhookflow:latest"
+  },
+  "author": "@britishdeveloper0",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.3.1",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
