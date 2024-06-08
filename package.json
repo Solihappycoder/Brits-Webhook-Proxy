@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "prod": "npm i && node .",
-    "build": "docker build -t someone98930/webhookflow:latest . && docker push someone98930/webhookflow:latest"
+    "prod": "npm i && node ."
   },
   "author": "@britishdeveloper0",
   "license": "ISC",
